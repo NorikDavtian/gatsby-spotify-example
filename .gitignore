@@ -7,3 +7,8 @@ yarn-error.log
 /public
 .DS_Store
 .idea
+
+# dotenv environment variables file
+.env
+.env.development
+.env.production
