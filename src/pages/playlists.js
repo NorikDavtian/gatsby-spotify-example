@@ -22,11 +22,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       query SpotifyPlaylists {
-        playlists: allSpotifyPlaylist(
-          # filter: { spotifyId: {eq: "1nVxTfwvJcK4Huoz1BtHar"}}
-          # filter: { name: {regex: "/Album Cover/"}}
-          limit: 20
-        ) {
+        playlists: allSpotifyPlaylist {
           edges {
             node {
               spotifyId

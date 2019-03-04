@@ -40,7 +40,8 @@ const Layout = ({ children, data }) => (
             <Grid.Column mobile={16} computer={3}>
               <Menu vertical fluid>
                 <LinkedItem to='/' exact>Home</LinkedItem>
-                <LinkedItem to='/page-2'>Playlists</LinkedItem>
+                <LinkedItem to='/playlists'>Playlists</LinkedItem>
+                <LinkedItem to='/album-cover'>Album Cover</LinkedItem>
                 <LinkedItem to='/404'>404 Example Page</LinkedItem>
               </Menu>
             </Grid.Column>

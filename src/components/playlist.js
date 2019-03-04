@@ -6,7 +6,7 @@ const PlaylistImage = ({ data }) => {
   if (!data.image) {
     return (
       <div className="image">
-        <img className="ui image" src={placeholderImage} />
+        <img className="ui image" src={placeholderImage} alt="placeholder" />
       </div>
     )
   }

@@ -9,7 +9,7 @@
     "gatsby-plugin-less": "^2.0.0-beta.5",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sharp": "^2.0.23",
-    "gatsby-source-spotify": "^1.2.2",
+    "gatsby-source-spotify": "github:NorikDavtian/gatsby-source-spotify-compiled",
     "gatsby-transformer-sharp": "^2.1.8",
     "less": "^3.8.1",
     "react": "^16.4.1",

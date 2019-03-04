@@ -19,6 +19,7 @@ module.exports = {
         refreshToken: process.env.SPOTIFY_REFRESH_TOKEN,
         fetchPlaylists: true, // optional. Set to false to disable fetching of your playlists
         fetchRecent: false, // optional. Set to false to disable fetching of your recently played tracks
+        playlistId: '4MRRpMhKaFRFIqvlXSptvW'
       },
     },
   ],
